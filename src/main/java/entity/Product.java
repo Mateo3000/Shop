@@ -1,12 +1,14 @@
+package entity;
+
 public class Product {
-    private long id;
+    private Long id;
     private String productName;
     private float price;
     private float weight;
     private String color;
     private int productCount;
 
-    public Product(long id, String productName, float price, float weight, String color, int productCount)
+    public Product(Long id, String productName, float price, float weight, String color, int productCount)
     {
         this.id = id;
         this.productName = productName;
@@ -15,7 +17,7 @@ public class Product {
         this.color = color;
         this.productName = productName;
     }
-    public long getId ()
+    public Long getId ()
     {
         return id;
     }

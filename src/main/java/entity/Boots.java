@@ -1,8 +1,10 @@
-public class Boots extends Product{
+package entity;
+
+public class Boots extends Product {
     private int size;
     private boolean isNaturalSkin = true;
 
-    public Boots(long id, String productName, float price, float weight, String color, int productCount, int size,
+    public Boots(Long id, String productName, float price, float weight, String color, int productCount, int size,
                  boolean isNaturalSkin)
     {
         super(id, productName, price, weight, color, productCount);

@@ -1,10 +1,12 @@
+package entity;
+
 import javafx.scene.paint.Material;
 
 public class Cloth extends Product {
     private String size;
     private Material material;
 
-    public Cloth(long id, String productName, float price, float weight, String color, int productCount, String size, Material material)
+    public Cloth(Long id, String productName, float price, float weight, String color, int productCount, String size, Material material)
     {
         super(id, productName, price, weight, color, productCount);
         this.size = size;
