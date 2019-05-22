@@ -6,10 +6,10 @@ import java.util.List;
 public class UserServiceImpl implements UserService {
     List<User> users;
     public UserServiceImpl() {
-        this.users = new ArrayList<User>();
+        this.users = new ArrayList<User>();  //konstruktor bezparametrowy
     }
     public UserServiceImpl(List<User> users) {
-        this.users = users;
+        this.users = users; //konstruktor parametrowy
     }
     public List<User> getAllUsers() {
         return users;
