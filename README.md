@@ -1,0 +1,1 @@
+﻿# Shop - jest to prosta aplikacja okienkowa do obsługi sklepu odzieżowo-obuwniczego.Technologia - Java, Java FX,
